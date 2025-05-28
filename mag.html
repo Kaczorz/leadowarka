@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Magazyn Energii - Columbus Energy</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800">
+
+  <header class="bg-green-700 text-white p-4 shadow-md">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-xl font-bold">Columbus Energy</h1>
+      <nav class="space-x-4">
+      <a href="index.html" class="hover:underline">Powrót do strony głównej</a>
+      <a href="termo.html" class="hover:underline">Termomodernizacja</a>
+      <a href="foto.html" class="hover:underline">Fotowoltaika</a>
+    </div>
+  </header>
+
+  <section class="bg-gray-100 py-8">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-3xl font-bold mb-4">Zatrzymaj energię u siebie</h2>
+      <p class="text-lg mb-6">Magazyn energii pozwala Ci wykorzystać wyprodukowaną energię wtedy, kiedy jej najbardziej potrzebujesz – bez opłat za przesył.</p>
+      <div class="flex space-x-4">
+        <img src="index_obrazy/magazyn1.jpeg"
+            alt="Schemat instalacji fotowoltaicznej z pompą i magazynem"
+            class="h-64 object-contain rounded shadow" />
+        <img src="index_obrazy/magazyn2.jpeg"
+            alt="Schemat instalacji fotowoltaicznej z pompą i magazynem"
+            class="h-64 object-contain rounded shadow" />
+        <img src="index_obrazy/magazyn3.jpeg"
+            alt="Schemat instalacji fotowoltaicznej z pompą i magazynem"
+            class="h-64 object-contain rounded shadow" />
+        <img src="index_obrazy/magazyn4.jpeg"
+            alt="Schemat instalacji fotowoltaicznej z pompą i magazynem"
+            class="h-64 object-contain rounded shadow" />
+            <img src="index_obrazy/magazyn5.jpeg"
+            alt="Schemat instalacji fotowoltaicznej z pompą i magazynem"
+            class="h-64 object-contain rounded shadow" />
+        <img src="index_obrazy/magazyn6.jpeg"
+            alt="Schemat instalacji fotowoltaicznej z pompą i magazynem"
+            class="h-64 object-contain rounded shadow" />
+        <img src="index_obrazy/magazyn7.jpeg"
+            alt="Schemat instalacji fotowoltaicznej z pompą i magazynem"
+            class="h-64 object-contain rounded shadow" />
+      </div>
+    </div>
+  </section>
+
+  <section class="container mx-auto px-4 py-12">
+    <div class="grid md:grid-cols-2 gap-8 items-center">
+      <div>
+        <h3 class="text-2xl font-bold mb-4">Dla kogo?</h3>
+        <ul class="space-y-3 text-lg">
+          <li>🔌 Masz już fotowoltaikę - <strong>od dowolnej firmy</strong>?</li>
+          <li>📈 Chcesz zwiększyć autokonsumpcję i obniżyć rachunki?</li>
+          <li>⚖️ Zależy Ci na przejściu na system <strong>bilansowania 1:1</strong>?</li>
+          <li>🔋 Potrzebujesz większej niezależności energetycznej?</li>
+        </ul>
+      </div>
+      <div>
+        <img src="path/to/schemat-magazyn.jpg" alt="Schemat z magazynem energii" class="w-full h-64 object-contain rounded shadow" />
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-green-50 py-10">
+    <div class="container mx-auto px-4 text-center">
+      <h3 class="text-2xl font-bold mb-4">Korzyści z magazynowania energii</h3>
+      <div class="grid md:grid-cols-3 gap-6 mt-6">
+        <div class="bg-white p-6 rounded shadow">
+          <h4 class="text-lg font-semibold mb-2">⚡ Mniejsze rachunki</h4>
+          <p>Wykorzystujesz własną energię zamiast oddawać ją do sieci.</p>
+        </div>
+        <div class="bg-white p-6 rounded shadow">
+          <h4 class="text-lg font-semibold mb-2">📉 Mniej opłat za przesył</h4>
+          <p>Energia z magazynu nie generuje dodatkowych kosztów dystrybucji.</p>
+        </div>
+        <div class="bg-white p-6 rounded shadow">
+          <h4 class="text-lg font-semibold mb-2">💡 Zasilanie awaryjne</h4>
+          <p>Podtrzymanie kluczowych urządzeń podczas przerw w dostawie prądu.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-white py-10">
+    <div class="container mx-auto px-4 text-center">
+      <h3 class="text-xl font-semibold mb-4">Columbus - partner, któremu możesz zaufać</h3>
+      <p class="mb-4">Zrealizowaliśmy ponad 50 000 instalacji w całej Polsce. Pomagamy również klientom, którzy wcześniej korzystali z innych firm.</p>
+      <img src="path/to/partnerzy.jpg" alt="Logo lub certyfikaty partnerów" class="mx-auto h-16 object-contain" />
+    </div>
+  </section>
+
+  <section class="bg-green-700 text-white py-12">
+    <div class="container mx-auto text-center px-4">
+      <h3 class="text-2xl font-bold mb-4">Sprawdź, czy Twój dom kwalifikuje się do rozbudowy</h3>
+      <p class="mb-6">Wypełnij krótką ankietę – bez zobowiązań, a z możliwymi oszczędnościami.</p>
+      <form action="submit_lead.php" method="POST">
+        <label for="imie_nazwisko">Imię i nazwisko:</label><br>
+        <input type="text" id="imie_nazwisko" name="imie_nazwisko" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="telefon">Telefon:</label><br>
+        <input type="text" id="telefon" name="telefon" required><br><br>
+
+        <label for="adres">Adres:</label><br>
+        <textarea id="adres" name="adres" rows="4" cols="50" required></textarea><br><br>
+
+        <input type="hidden" name="typ_uslugi" value="3">
+
+        <input type="submit" value="Wyślij">
+      </form>
+    </div>
+  </section>
+
+  <footer class="bg-gray-800 text-white text-center py-4">
+    <p>&copy; 2025 Columbus Energy. Wszelkie prawa zastrzeżone.</p>
+  </footer>
+
+</body>
+</html>

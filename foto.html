@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fotowoltaika - Columbus Energy</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800">
+
+  <header class="bg-green-700 text-white p-4 shadow-md">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-xl font-bold">Columbus Energy</h1>
+      <nav class="space-x-4">
+      <a href="index.html" class="hover:underline">Powrót do strony głównej</a>
+      <a href="termo.html" class="hover:underline">Termomodernizacja</a>
+      <a href="mag.html" class="hover:underline">Magazyn Energii</a>
+    </div>
+  </header>
+
+  <section class="bg-gray-100 py-8">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-3xl font-bold mb-4">Własna energia ze słońca</h2>
+      <p class="text-lg mb-6">Zainstaluj fotowoltaikę i oszczędzaj dzięki bilansowaniu energii 1:1. Idealne rozwiązanie dla domów z pompą ciepła.</p>
+      <img src="index_obrazy/WhatsApp Image 2023-02-11 at 15.05.41 (1).jpeg" alt="Panele słoneczne na dachu domu" class="mx-auto h-60 object-cover rounded shadow" />
+    </div>
+  </section>
+
+  <section class="container mx-auto px-4 py-12">
+    <div class="grid md:grid-cols-2 gap-8 items-center">
+      <div>
+        <h3 class="text-2xl font-bold mb-4">Jak to działa?</h3>
+        <ul class="space-y-3 text-lg">
+          <li>🔋 <strong>Panele fotowoltaiczne</strong> produkują energię elektryczną.</li>
+          <li>🔥 <strong>Pompa ciepła</strong> wykorzystuje energię do ogrzewania domu.</li>
+          <li>💧 <strong>System Aqua</strong> podgrzewa wodę użytkową.</li>
+          <li>⚡ <strong>Magazyn energii</strong> przechowuje nadwyżki i redukuje koszty przesyłu.</li>
+        </ul>
+      </div>
+      <div class="flex space-x-4">
+        <img src="index_obrazy/WhatsApp Image 2023-02-11 at 14.48.06 (1).jpeg"
+            alt="Schemat instalacji fotowoltaicznej z pompą i magazynem"
+            class="h-64 object-contain rounded shadow" />
+        <img src="index_obrazy/WhatsApp Image 2023-02-11 at 14.48.07 (1).jpeg"
+            alt="Schemat instalacji fotowoltaicznej z pompą i magazynem"
+            class="h-64 object-contain rounded shadow" />
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-green-50 py-10">
+    <div class="container mx-auto px-4 text-center">
+      <h3 class="text-2xl font-bold mb-4">Bilansowanie 1:1 – stara zasada, wielka korzyść</h3>
+      <p class="text-lg max-w-2xl mx-auto mb-6">
+        Dzięki rozliczeniu 1:1 możesz odebrać z sieci tyle energii, ile oddałeś – bez kosztów przesyłu. Ale ten system odchodzi – działaj teraz, zanim będzie za późno!
+      </p>
+      <img src="path/to/bilansowanie.jpg" alt="Grafika bilansowania 1:1" class="mx-auto h-48 object-contain mb-6" />
+      <form action="submit_lead.php" method="POST">
+        <label for="imie_nazwisko">Imię i nazwisko:</label><br>
+        <input type="text" id="imie_nazwisko" name="imie_nazwisko" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="telefon">Telefon:</label><br>
+        <input type="text" id="telefon" name="telefon" required><br><br>
+
+        <label for="adres">Adres:</label><br>
+        <textarea id="adres" name="adres" rows="4" cols="50" required></textarea><br><br>
+
+        <input type="hidden" name="typ_uslugi" value="2">
+
+        <input type="submit" value="Wyślij">
+      </form>
+    </div>
+  </section>
+
+  <section class="bg-white py-10">
+    <div class="container mx-auto px-4 text-center">
+      <h3 class="text-xl font-semibold mb-4">Sprawdź, jak pomagamy klientom</h3>
+      <p class="mb-4">Już ponad 50 000 gospodarstw domowych wybrało naszą instalację fotowoltaiczną. Dołącz do grona zadowolonych użytkowników!</p>
+      <img src="path/to/opinie.jpg" alt="Opinie lub wykres zadowolenia klientów" class="mx-auto h-32 object-contain" />
+    </div>
+  </section>
+
+  <section class="bg-green-700 text-white py-12">
+    <div class="container mx-auto text-center px-4">
+      <h3 class="text-2xl font-bold mb-4">Zrób pierwszy krok w stronę niezależności energetycznej</h3>
+      <p class="mb-6">Wypełnij krótką ankietę – a my sprawdzimy, co możemy dla Ciebie zrobić.</p>
+      <a href="/ankieta-fotowoltaika" class="bg-white text-green-700 px-6 py-3 rounded-lg text-lg font-semibold hover:bg-gray-100">Wypełnij ankietę</a>
+    </div>
+  </section>
+
+  <footer class="bg-gray-800 text-white text-center py-4">
+    <p>&copy; 2025 Columbus Energy. Wszelkie prawa zastrzeżone.</p>
+  </footer>
+
+</body>
+</html>

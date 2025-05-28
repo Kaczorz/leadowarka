@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Termomodernizacja - Columbus Energy</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800">
+
+  <header class="bg-green-700 text-white p-4 shadow-md">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-xl font-bold">Columbus Energy</h1>
+      <nav class="space-x-4">
+      <a href="index.html" class="hover:underline">Powrót do strony głównej</a>
+      <a href="foto.html" class="hover:underline">Fotowoltaika</a>
+      <a href="mag.html" class="hover:underline">Magazyn Energii</a>
+    </div>
+  </header>
+
+  <section class="bg-gray-100 py-8">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-3xl font-bold mb-4">Ciepły dom. Niższe rachunki.</h2>
+      <p class="text-lg mb-6">Zyskaj nawet kilkadziesiąt procent oszczędności na ogrzewaniu dzięki kompleksowej termomodernizacji.</p>
+    </div>
+  </section>
+
+  <section class="container mx-auto px-4 py-8 text-center">
+    <h3 class="text-xl font-semibold mb-4">Zobacz efekty</h3>
+    <div class="grid md:grid-cols-2 gap-4">
+      <div>
+        <img src="path/to/przed.jpg" alt="Dom przed termomodernizacją" class="w-full h-60 object-cover rounded shadow" />
+        <p class="mt-2 text-sm text-gray-600">Przed</p>
+      </div>
+      <div>
+        <img src="path/to/po.jpg" alt="Dom po termomodernizacji" class="w-full h-60 object-cover rounded shadow" />
+        <p class="mt-2 text-sm text-gray-600">Po</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-white py-8 border-t">
+    <div class="container mx-auto px-4">
+      <h3 class="text-2xl font-bold mb-6 text-center">Dlaczego warto?</h3>
+      <ul class="space-y-4 text-lg max-w-2xl mx-auto">
+        <li>✅ Mniejsze rachunki za ogrzewanie - nawet o 50%</li>
+        <li>✅ Cieplejszy dom zimą, chłodniejszy latem</li>
+        <li>✅ Możliwość uzyskania dofinansowania (program Czyste Powietrze)</li>
+        <li>✅ Kompleksowa obsługa - od audytu po montaż</li>
+        <li>✅ Gwarancja jakości od Columbus Energy</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="bg-gray-50 py-8">
+    <div class="container mx-auto px-4 text-center">
+      <h3 class="text-xl font-semibold mb-4">Zaufało nam ponad 50 000 klientów</h3>
+      <p class="mb-4">Jesteśmy sprawdzonym partnerem - działamy na rynku od ponad 10 lat. Pomożemy Ci przejść przez cały proces bez stresu i papierologii.</p>
+      <img src="path/to/logo-partnerskie.jpg" alt="Logo partnerów lub certyfikatów" class="mx-auto h-16 object-contain" />
+    </div>
+  </section>
+
+  <section class="bg-green-700 text-white py-12">
+    <div class="container mx-auto text-center px-4">
+      <h3 class="text-2xl font-bold mb-4">Chcesz sprawdzić, czy możesz skorzystać?</h3>
+      <p class="mb-6">Wypełnij prostą ankietę - to nic nie kosztuje, a może Ci się bardzo opłacić.</p>
+      <form action="submit_lead.php" method="POST">
+        <label>Imię i nazwisko:</label>
+        <input type="text" name="imie_nazwisko" required><br><br>
+
+        <label>Email:</label>
+        <input type="email" name="email" required><br><br>
+
+        <label>Telefon:</label>
+        <input type="text" name="telefon" required><br><br>
+
+        <label>Adres:</label>
+        <textarea name="adres" required></textarea><br><br>
+
+        <input type="hidden" name="typ_uslugi" value="1">
+
+        <input type="submit" value="Wyślij">
+      </form>
+    </div>
+  </section>
+
+  <footer class="bg-gray-800 text-white text-center py-4">
+    <p>&copy; 2025 Columbus Energy. Wszelkie prawa zastrzeżone.</p>
+  </footer>
+
+</body>
+</html>
