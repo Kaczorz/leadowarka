@@ -35,10 +35,10 @@ try {
         ':typ_uslugi' => $typ_uslugi
     ]);
 
-    echo "✅ Lead został dodany pomyślnie!";
+    echo "Lead został dodany pomyślnie!";
 } catch (PDOException $e) {
-    echo "❌ Błąd bazy danych (PDO): " . $e->getMessage();
+    echo "Błąd bazy danych (PDO): " . $e->getMessage();
 } catch (Exception $e) {
-    echo "⚠️ Błąd aplikacji: " . $e->getMessage();
+    echo "Błąd aplikacji: " . $e->getMessage();
 }
 ?>
