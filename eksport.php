@@ -55,4 +55,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <option value="3">Magazyn energii</option>
   </select><br><br>
   <input type="submit" value="Eksportuj do Excela">
-</form>
+</form> 
